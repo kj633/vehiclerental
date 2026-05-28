@@ -16,7 +16,7 @@ public class RentalSystemGUIApp {
 /**
  * Primary Windows Frame constructing interface components and event handling.
  */
-class RentalMainFrame extends JFrame {
+class RentalMainFrame extends JFrame { // Restored to original structure
     // Polymorphic Array Container to hold all our vehicles
     private Vehicle[] fleet;
     
@@ -229,7 +229,7 @@ class RentalMainFrame extends JFrame {
 // CORE OBJECT-ORIENTED STRUCTURES ARCHITECTURE (V1.0 - V4.0)
 // =========================================================================
 
-class Vehicle {
+class Vehicle { // Restored to original structure
     private String vehicleId;
     private String model;
     private double baseRatePerDay;
@@ -290,7 +290,7 @@ class Vehicle {
     }
 }
 
-class Car extends Vehicle {
+class Car extends Vehicle { // Restored to original structure
     private boolean isLuxury;
 
     public Car(String vehicleId, String model, double baseRatePerDay, boolean isLuxury) {
@@ -320,7 +320,7 @@ class Car extends Vehicle {
     }
 }
 
-class Motorcycle extends Vehicle {
+class Motorcycle extends Vehicle { // Restored to original structure
     private int engineCc;
 
     public Motorcycle(String vehicleId, String model, double baseRatePerDay, int engineCc) {
